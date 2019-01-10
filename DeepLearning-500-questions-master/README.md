@@ -1,29 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/scutan90/DeepLearning-500-questions/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-##############################################################
-
-请尊重作者的知识产权，版权所有，翻版必究。   2018.6.27  Tan 
-
-##############################################################
-
-## 接下来，将提供MD版本\tex版本，大家一起编辑完善，敬请期待！
-
-寻求有愿意继续完善的朋友、编辑、写手，合作出书；
-
-如有意合作，完善出书（成为共同作者），
-
-请联系scutjy2015@163.com　；　加微信Tan：tan_weixin88
-
-
-微信交流群：《深度学习500问》交流群  
-
-![《深度学习500问》交流群二维码](WechatIMG3.jpeg)
-
-2018.10.23  Tan 
-
-##############################################################
+----- 
 
 ## 第一章 数学基础	1
 
