@@ -12,3 +12,6 @@ mathematics application and method
 
 ----
 
+# github上查看Latex公式
+在MarkDown文件中写数学表达式，通过插件查看
+google中有一个[Github with MathJax](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)插件，安装插件后可以正常显示数学公式。
