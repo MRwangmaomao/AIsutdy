@@ -1,55 +1,55 @@
 
 # 目录
 * Tensorflow basic
-  * [Session](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/201_session.py)
-  * [Placeholder](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/202_placeholder.py)
-  * [Variable](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/203_variable.py)
-  * [Activation](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/204_activation.py)
+  * [Session](201_session.py)
+  * [Placeholder](202_placeholder.py)
+  * [Variable](203_variable.py)
+  * [Activation](204_activation.py)
 * Build your first network
-  * [Regression](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/301_simple_regression.py)
-  * [Classification](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/302_simple_classification.py)
-  * [Save and reload](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/303_save_reload.py)
-  * [Optimizers](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/304_optimizer.py)
-  * [Tensorboard](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/305_tensorboard.py)
-  * [Dataset](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/306_dataset.py)
+  * [Regression](301_simple_regression.py)
+  * [Classification](302_simple_classification.py)
+  * [Save and reload](303_save_reload.py)
+  * [Optimizers](304_optimizer.py)
+  * [Tensorboard](305_tensorboard.py)
+  * [Dataset](306_dataset.py)
 * Advanced neural network
-  * [CNN](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/401_CNN.py)
-  * [RNN-Classification](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/402_RNN_classification.py)
-  * [RNN-Regression](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/403_RNN_regression.py)
-  * [AutoEncoder](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/404_AutoEncoder.py)
-  * [DQN Reinforcement Learning](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/405_DQN_reinforcement_learning.py)
-  * [GAN (Generative Adversarial Nets)](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/406_GAN.py) / [Conditional GAN](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/406_conditional_GAN.py)
-  * [Transfer Learning](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/407_transfer_learning.py)
+  * [CNN](401_CNN.py)
+  * [RNN-Classification](402_RNN_classification.py)
+  * [RNN-Regression](403_RNN_regression.py)
+  * [AutoEncoder](404_AutoEncoder.py)
+  * [DQN Reinforcement Learning](405_DQN_reinforcement_learning.py)
+  * [GAN (Generative Adversarial Nets)](406_GAN.py) / [Conditional GAN](406_conditional_GAN.py)
+  * [Transfer Learning](407_transfer_learning.py)
 * Others (WIP)
-  * [Dropout](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/501_dropout.py)
-  * [Batch Normalization](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/502_batch_normalization.py)
-  * [Visualize Gradient Descent](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/503_visualize_gradient_descent.py)
-  * [Distributed training](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/504_distributed_training.py)
+  * [Dropout](501_dropout.py)
+  * [Batch Normalization](502_batch_normalization.py)
+  * [Visualize Gradient Descent](503_visualize_gradient_descent.py)
+  * [Distributed training](504_distributed_training.py)
 
-### [Regression](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/301_simple_regression.py)
+### [Regression](301_simple_regression.py)
 
-<a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/301_simple_regression.py">
+<a href="301_simple_regression.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/1-1-2.gif">
 </a>
 
-### [Classification](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/302_simple_classification.py)
+### [Classification](302_simple_classification.py)
 
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/302_simple_classification.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/1-1-3.gif">
 </a>
 
-### [CNN](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/401_CNN.py)
+### [CNN](401_CNN.py)
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/401_CNN.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/4-1-2.gif" >
 </a>
 
-### [RNN](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/403_RNN_regression.py)
+### [RNN](403_RNN_regression.py)
 
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/403_RNN_regression.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/4-3-1.gif" >
 </a>
 
-### [Autoencoder](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/404_AutoEncoder.py)
+### [Autoencoder](404_AutoEncoder.py)
 
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/404_AutoEncoder.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/4-4-1.gif" >
@@ -59,42 +59,27 @@
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/4-4-2.gif" >
 </a>
 
-### [GAN (Generative Adversarial Nets)](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/406_GAN.py)
+### [GAN (Generative Adversarial Nets)](406_GAN.py)
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/406_GAN.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/4-6-1.gif" >
 </a>
 
-### [Dropout](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/501_dropout.py)
+### [Dropout](501_dropout.py)
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/501_dropout.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/5-3-1.gif" >
 </a>
 
-### [Batch Normalization](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/502_batch_normalization.py)
+### [Batch Normalization](502_batch_normalization.py)
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/502_batch_normalization.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/torch/5-4-2.gif" >
 </a>
 
-### [Visualize Gradient Descent](https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/503_visualize_gradient_descent.py)
+### [Visualize Gradient Descent](503_visualize_gradient_descent.py)
 <a href="https://github.com/MorvanZhou/Tensorflow-Tutorial/blob/master/tutorial-contents/503_visualize_gradient_descent.py">
     <img class="course-image" src="https://morvanzhou.github.io/static/results/tensorflow/5_15_01.gif" >
 </a>
 
-# Donation
 
-*If this does help you, please consider donating to support me for better tutorials! Any contribution is greatly appreciated!*
 
-<div >
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=morvanzhou%40gmail%2ecom&amp;lc=C2&amp;item_name=MorvanPython&amp;currency_code=AUD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">
-    <img style="border-radius: 20px;  box-shadow: 0px 0px 10px 1px  #888888;"
-         src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-44px.png"
-         alt="Paypal"
-         height="auto" ></a>
-</div>
 
-<div>
-  <a href="https://www.patreon.com/morvan">
-    <img src="https://morvanzhou.github.io/static/img/support/patreon.jpg"
-         alt="Patreon"
-         height=120>
-  </a>
-</div>
+

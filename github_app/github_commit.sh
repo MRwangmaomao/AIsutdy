@@ -1,4 +1,4 @@
 
 git add .
-git commit -m "add all files"
+git commit -m "cnn"
 git push -u origin master

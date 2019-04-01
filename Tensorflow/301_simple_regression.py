@@ -49,6 +49,7 @@ for step in range(100):
         plt.plot(x, pred, 'r-', lw=5)
         plt.text(0.5, 0, 'Loss=%.4f' % l, fontdict={'size': 20, 'color': 'red'})
         plt.pause(0.1)
+        
 
 plt.ioff()
 plt.show()
