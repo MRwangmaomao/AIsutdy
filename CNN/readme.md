@@ -1,4 +1,18 @@
-# 图像预处理
+# 目录
+
+<!-- TOC -->
+
+- [1. 图像预处理](#1-图像预处理)
+- [2. 深度学习基础](#2-深度学习基础)
+- [3. 常见的卷积神经网络](#3-常见的卷积神经网络)
+- [4. 图像检索](#4-图像检索)
+- [5. 目标检测](#5-目标检测)
+- [6. 图像分割](#6-图像分割) 
+
+<!-- /TOC -->
+
+
+# 1. 图像预处理
 ## 颜色空间
 RGB颜色空间 R G B
 
@@ -95,7 +109,7 @@ $$f(t)=\frac{1}{2\pi} \int F(w)e^{iwt}dw$$
 
 
 
-# 深度学习基础
+# 2. 深度学习基础
 
 ## CNN 卷积神经网络
 
@@ -131,7 +145,7 @@ $$w(m+1)=w(m)+\Delta w(m) = w(m)- \beta \frac{\Phi J}{\Phi w} $$
 广义条件下SGD指的就是MBGD
 
 
-# 常见的卷积神经网络
+# 3. 常见的卷积神经网络
 
 
 ## Alexnet
@@ -179,7 +193,7 @@ Inception V1网络
 ## ResNet
 
 
-# 图像检索
+# 4. 图像检索
 
 ## 传统做法
 
@@ -214,7 +228,7 @@ Inception V1网络
 
 
 
-# 目标检测(Object Detection)
+# 5. 目标检测(Object Detection)
 ILSVRC竞赛()
 
 检测图片中所有物体的:
@@ -260,4 +274,29 @@ ILSVRC竞赛()
 ### YOLO V3
 
 
-point_right 
+# 6. 图像分割(Image Segmentation)
+
+①什么是图像分割？
+- [十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+- [图像分割发展综述](https://zhuanlan.zhihu.com/p/37618829)
+- [图像分割的衡量指标详解](https://blog.csdn.net/qq_37274615/article/details/78957962)
+- [如何制作将分割数据集封装成tfrecords](https://blog.csdn.net/qwe2508/article/details/81180613#commentBox)
+
+
+②综述类/总结类：
+
+- [从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
+- [分割算法——可以分割一切目标（各种分割总结）](https://mp.weixin.qq.com/s/KcVKKsAyz-eVsyWR0Y812A)
+
+
+
+③深度学习语义分割模型的介绍：
+
+- [语义分割(semantic segmentation) 常用神经网络介绍对比-FCN SegNet U-net DeconvNet](https://blog.csdn.net/zhyj3038/article/details/71195262)
+- [深度学习（十九）——FCN, SegNet, DeconvNet, DeepLab, ENet, GCN](https://blog.csdn.net/antkillerfarm/article/details/79524417)
+
+④图像分割的衡量指标：
+
+- [图像分割的衡量指标详解](https://blog.csdn.net/qq_37274615/article/details/78957962)
+
+语义分割其实就是对图片的每个像素都做分类。其中，较为重要的语义分割数据集有：VOC2012 以及 MSCOCO。
