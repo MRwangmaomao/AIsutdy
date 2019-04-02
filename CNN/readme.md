@@ -228,7 +228,7 @@ Inception V1网络
 
 
 
-# 5. 目标检测(Object Detection)
+# 5. 目标检测
 ILSVRC竞赛()
 
 检测图片中所有物体的:
@@ -274,7 +274,7 @@ ILSVRC竞赛()
 ### YOLO V3
 
 
-# 6. 图像分割(Image Segmentation)
+# 6. 图像分割
 
 ①什么是图像分割？
 - [十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
