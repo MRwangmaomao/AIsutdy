@@ -13,23 +13,23 @@
 
 
 # 1. 图像预处理
-## 颜色空间
-RGB颜色空间 R G B
+## 1.1 颜色空间
+- RGB颜色空间 R G B
 
-一个图像的维度为 长 宽 颜色通道
+- 一个图像的维度为 长 宽 颜色通道
 
-HSV颜色空间  色调 饱和度(越靠近中间越红,边上越白) 亮度
+- HSV颜色空间  色调 饱和度(越靠近中间越红,边上越白) 亮度
  
-CIE-XYZ颜色空间 基于人类颜色视觉进行的定义(对蓝色的变化敏感)
+- CIE-XYZ颜色空间 基于人类颜色视觉进行的定义(对蓝色的变化敏感)
 
-## 图片格式 
-BMP JPG GIF PNG
+## 1.2 图片格式 
+- BMP JPG GIF PNG
 
-## 图像增强的目标
-改善图像的视觉效果,转换为更适合于人或机器分析处理的形式
+## 1.3 图像增强的目标
+- 改善图像的视觉效果,转换为更适合于人或机器分析处理的形式
 
-## 图像处理方法
-### 1. 空间域处理:
+## 1.4 图像处理方法
+### 1.4.1 空间域处理:
 #### 点运算:HE CLAHE
 
 直方图均衡化:利用图像直方图对对比度进行调整的方法,实质上是对图像进行非线性拉伸.
@@ -93,7 +93,7 @@ $\sigma$越大,会变得越模糊
 
 
 
-### 2. 频率域处理
+### 1.4.2 频率域处理
 #### 傅里叶变换
 重要作用:信号分解
 欧拉公式:
@@ -111,7 +111,9 @@ $$f(t)=\frac{1}{2\pi} \int F(w)e^{iwt}dw$$
 
 # 2. 深度学习基础
 
-## CNN 卷积神经网络
+## 2.1 CNN 卷积神经网络
+
+[神经网络发展历史](../papers-reading/Other-Papers/【卷积神经网络发展史】/READMD.md)
 
 ### 多层网络的层的通俗:
 层实现了输入神经网络到输出神经网络的线性或非线性变换.
@@ -148,7 +150,7 @@ $$w(m+1)=w(m)+\Delta w(m) = w(m)- \beta \frac{\Phi J}{\Phi w} $$
 # 3. 常见的卷积神经网络
 
 
-## Alexnet
+## 3.1 Alexnet
 ImageNet-2012竞赛第一
 
 5个卷积核+3个全连接层
@@ -165,7 +167,7 @@ Dropout regularization
 
 
 
-## VGG
+## 3.2 VGG
 一个大卷积核分解成连续多个小卷积核
 
 核分解:7*7核->3个3*3核(由ReLU连接)
@@ -174,7 +176,7 @@ Dropout regularization
 
 减少参数,降低计算,增加深度
 
-## GoogLeNet
+## 3.3 GoogLeNet
 ImageNet-2014竞赛第一
 
 进化顺序
@@ -190,12 +192,27 @@ Inception V1网络
 * 辅助分类器 解决前几层的梯度消失问题
 
 
-## ResNet
+## 3.4 ResNet
 
+讲解
+
+- [深度残差网络（ResNet）](https://ylhao.github.io/2018/05/25/%E6%AE%8B%E5%B7%AE%E7%BD%91%E7%BB%9C%EF%BC%88ResNet%EF%BC%89/)
+
+
+实践
+
+- 代码：[chaipangpang/ResNet_cifar](https://github.com/chaipangpang/ResNet_cifar)
+- ResNet 代码讲解：
+  - [理解ResNet结构与TensorFlow代码分析](https://blog.csdn.net/chaipp0607/article/details/75577305)
+  - [TF官方的ResNet代码详解](https://zhuanlan.zhihu.com/p/32194105)
+
+关于残差连接：[resnet中的残差连接，你确定真的看懂了？](https://zhuanlan.zhihu.com/p/42833949)
+
+[ResNet(残差网络).md](../papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
 # 4. 图像检索
 
-## 传统做法
+## 4.1 传统做法
 
 #### EMD距离(推土机距离)
 
@@ -205,14 +222,14 @@ Inception V1网络
 
 #### PHOG
 
-## 基于深度学习的方法
+## 4.2 基于深度学习的方法
 
 #### 迁移学习
 要训练一个网络来识别猫和狗,若从头训练,需要数以百万的带标签数据,还有GPU资源.
 
 使用迁移学习,使用VGG16这样成熟的网络进行物品分类,只训练softmax层,只需要几千张图片,使用普通CPU就能完成,模型的准确性也不差.
 
-## 索引加速
+## 4.3 索引加速
 #### KD-Tree
 一种用于多维度检索的二叉平衡树
 
@@ -229,6 +246,9 @@ Inception V1网络
 
 
 # 5. 目标检测
+
+![目标检测](../image/深度学习目标检测发展史.jpg)
+$$目标检测发展史$$
 ILSVRC竞赛()
 
 检测图片中所有物体的:
@@ -238,7 +258,7 @@ ILSVRC竞赛()
 实例分割:判断每一个像素属于谁
 
 
-## 区域卷积神经网络(R-CNN)系列
+## 5.1 区域卷积神经网络(R-CNN)系列
 模型结构按照分类问题进行对待,提取物体区域,对区域进行识别
 
 * 1 Select search获取区域
@@ -255,23 +275,23 @@ ILSVRC竞赛()
 * 召回率recall:TP/(TP+FN)
 * mAP:所有类别的平均精度求和除以所有类别数,即数据集中所有类的平均精度的平均值.
 
-## SPP-Net 2014
+## 5.2 SPP-Net 2014
 
-## Fast-RCNN 2014
+## 5.3 Fast-RCNN 2014
 实现端到端的单阶段训练
 
 多任务损失函数
 
 
-## Faster R-CNN 2015
+## 5.4 Faster R-CNN 2015
 集成RPN(Region Proposal Network)网络
-## YOLO系列 2016
+## 5.5 YOLO系列 2016
 
-### YOLO V1
+### 5.5.1 YOLO V1
 
-### YOLO V2
+### 5.5.2 YOLO V2
 
-### YOLO V3
+### 5.5.3 YOLO V3
 
 
 # 6. 图像分割
@@ -300,3 +320,28 @@ ILSVRC竞赛()
 - [图像分割的衡量指标详解](https://blog.csdn.net/qq_37274615/article/details/78957962)
 
 语义分割其实就是对图片的每个像素都做分类。其中，较为重要的语义分割数据集有：VOC2012 以及 MSCOCO。
+用于自动驾驶的数据集:Cityscapes
+
+
+### 6.1 图像分割仓库
+
+- [semseg](https://github.com/guanfuchen/semseg)
+
+  > 常用的语义分割架构结构综述以及代码复现
+
+- [DeepNetModel](https://github.com/guanfuchen/DeepNetModel)
+
+  > 记录每一个常用的深度模型结构的特点（图和代码）
+  >
+  > 大佬的博客：[计算机视觉相关资源整理](https://guanfuchen.github.io/post/markdown_blog_ws/markdown_blog_2017_11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/)
+
+- [Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+
+  > Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!
+
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)（图像分割论文下载及实现可以在这里找到~）
+
+### 6.2 条件随机场(CRF)
+
+### 6.3 DeepLab
+[DeepLab系列的进击](../papers-reading/DeepLab系列的进击.md)
